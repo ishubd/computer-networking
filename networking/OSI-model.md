@@ -100,7 +100,7 @@ Physical layer contains the information in form of bits. It is reponsible for co
 - Hardware, electrical and mechanical characteristics
 - DSL, ISDN, SONET/SDH, Frame Relay
 - Transmission Mode
-- Hub, repeater, cable are physical layer devices \
+- Hub, repeater, cable are physical layer devices
 
 ### **Note**
 
