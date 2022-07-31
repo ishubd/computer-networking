@@ -23,7 +23,7 @@ Layer where user applications with certain required protocols are used inorder t
 
 # 6. Presentation layer
 
-This layer is all about formatting in a such a way that both parties will be able to read it. Application layer has given the data for network but the data is not in a format that the network can move. This layer is usually a part of an operating system (OS).
+This layer is all about formatting in such a way that both parties will be able to read it. Application layer has given the data for network but the data is not in a format that the network can move. This layer is usually a part of an operating system (OS).
 
 - PDU - Data
 - Formatting, Data encryption/decryption, Compression/Expansion, Syntax
@@ -33,7 +33,7 @@ This layer is all about formatting in a such a way that both parties will be abl
 
 # 5. Session layer
 
-This layer is responsible for negotiating the parameter and end of the communication. Bringing that session online. So, we can send that information, maintaing the session and tearing the session down once we no longer need them. This layer services include authentication and reconnection after an interruption.
+This layer is responsible for negotiating the parameter and end of the communication. Bringing that session online. So, we can send that information, maintaining the session and tearing the session down once we no longer need them. This layer services include authentication and reconnection after an interruption.
 
 - PDU - Data
 - Communication establishment
@@ -54,7 +54,7 @@ Here in this layer we choose the protocol that are going to be responsible for a
 
 This layer is responsible for forwarding our package. IP addresses get attached to network layer. \
 Now we got that envelope from above but we cannot do anything with it because we donot know where its going. So we gonna put a mailing address and put return address. Now we know where it came from and where its going to. \
-IP says that lets go ahead and take that data packet and will add a header on it and its gonna have source ip address and destination ip address. Then we can handle it to router and router can use routing protocols to make sure it hops through the network and gets to the right location.
+IP says that lets go ahead and take that data packet and will add a header on it and its going to have source ip address and destination ip address. Then we can handle it to router and router can use routing protocols to make sure it hops through the network and gets to the right location.
 
 - PDU - Packet
 - Packet forwarding, routing
@@ -65,6 +65,7 @@ IP says that lets go ahead and take that data packet and will add a header on it
 
 The Data link layer is responsible for providing node-to-node data transfer between two directly connected nodes. After a packet enters in a network its DLL responsibilty to transmit it to the host using its MAC address. \
 
+- PDU - Frame
 - Encapsulation of network layer data packets into frames
 - Frame synchronization
 - Frame Relay
@@ -96,6 +97,7 @@ Media Access Control determines who is allowed to access the media.
 
 Physical layer contains the information in form of bits. It is reponsible for converting into required bits such as electrical, radio, optical signals. Here the actual physical connection between devices happens. This layer converts the received signal into 0s and 1s.
 
+- PDU - Bits
 - Physical topology
 - Hardware, electrical and mechanical characteristics
 - DSL, ISDN, SONET/SDH, Frame Relay
