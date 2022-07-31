@@ -60,3 +60,49 @@ IP says that lets go ahead and take that data packet and will add a header on it
 - Packet forwarding, routing
 - Addressing
 - IP, ICMP, OSPF, RIP, RIPv2, BGP, EGIRP
+
+# 2. Data link layer
+
+The Data link layer is responsible for providing node-to-node data transfer between two directly connected nodes. After a packet enters in a network its DLL responsibilty to transmit it to the host using its MAC address. \
+
+- Encapsulation of network layer data packets into frames
+- Frame synchronization
+- Frame Relay
+- 802.11
+- ATM
+
+Data link layer is divided into two sub-layers:
+
+- Logical Link Control (LLC)
+- Media Access Control (MAC)
+
+## 2.1 Logical Link Control (LLC)
+
+LLC provides addressing, error and flow control but this addressing is little different. We are talking about MAC (Media Access Control) adresses.
+
+The MAC address of the receiver host is obtained by broadcasting an ARP(Address Resolution Protocol) request onto the network with MAC address FFF.FFF.FFF and destination IP address and the destination host will reply with its MAC address.
+
+- Error control
+- Flow Control
+
+## 2.2 Media Access Control (MAC)
+
+Media Access Control determines who is allowed to access the media.
+
+- Physical addressing
+- Virtual LANs (VLAN)
+
+# 1. Physical layer
+
+Physical layer contains the information in form of bits. It is reponsible for converting into required bits such as electrical, radio, optical signals. Here the actual physical connection between devices happens. This layer converts the received signal into 0s and 1s.
+
+- Physical topology
+- Hardware, electrical and mechanical characteristics
+- DSL, ISDN, SONET/SDH, Frame Relay
+- Transmission Mode
+- Hub, repeater, cable are physical layer devices \
+
+### **Note**
+
+Sometimes some potocol might be in multiple layers. \
+eg. TCP which is connection oriented communication so it can be seated in layer 5 (Session) too.
