@@ -5,13 +5,14 @@ In order to transfer data from one computer to another computer we need some add
 MAC address is made up of a 48-bits hexadecimal number that is present into every NIC (Network Interface Card) by the manufacturer itself during the time of manufacturing of the devices.
 
 Example of MAC address:
-The MAC addresses are formatted in different ways. Such as: \
-On Windows \
-00-00-5E-00-53-AF \
-On Apple & Linux \
-00:00:5E:00:53:AF \
-On Cisco \
-0000.5E00.53AF
+The MAC addresses are formatted in different ways. Such as:
+
+> On Windows \
+> 00-00-5E-00-53-AF \
+> On Apple & Linux \
+> 00:00:5E:00:53:AF \
+> On Cisco \
+> 0000.5E00.53AF
 
 Here in this MAC address the first 3 byte i.e. 00-00-5E identify the manufacturer of the NIC. \
 And the last 3 byte are the unique number that are from the manufracturer that identifies each device on the network.
