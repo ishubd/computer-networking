@@ -81,7 +81,7 @@ Data link layer is divided into two sub-layers:
 
 LLC provides addressing, error and flow control but this addressing is little different. We are talking about MAC (Media Access Control) adresses.
 
-The MAC address of the receiver host is obtained by broadcasting an ARP(Address Resolution Protocol) request onto the network with MAC address FFF.FFF.FFF and destination IP address and the destination host will reply with its MAC address.
+The MAC address of the receiver host is obtained by broadcasting an ARP(Address Resolution Protocol) request onto the network with MAC address FFFF.FFFF.FFFF and destination IP address and the destination host will reply with its MAC address.
 
 - Error control
 - Flow Control
