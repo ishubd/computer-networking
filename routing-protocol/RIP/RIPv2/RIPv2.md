@@ -21,3 +21,32 @@ R1(config-router)# network 192.168.10.64
 R1(config-router)# network 10.10.10.4
 R1(config-router)# network 192.168.10.128
 ```
+<<<<<<< HEAD
+=======
+
+For R2
+
+```console
+R1(config)# router rip
+R2(config-router)# version 2
+R2(config-router)# no auto-summary
+R2(config-router)# network 192.168.10.0
+R2(config-router)# network 10.10.10.0
+R2(config-router)# network 192.168.10.64
+R2(config-router)# network 10.10.10.4
+R2(config-router)# network 192.168.10.128
+```
+
+For R3
+
+```console
+R3(config)# router rip
+R3(config-router)# version 2
+R3(config-router)# no auto-summary
+R3(config-router)# network 192.168.10.0
+R3(config-router)# network 10.10.10.0
+R3(config-router)# network 192.168.10.64
+R3(config-router)# network 10.10.10.4
+R3(config-router)# network 192.168.10.128
+```
+>>>>>>> routing-protocol
