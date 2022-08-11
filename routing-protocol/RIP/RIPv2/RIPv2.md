@@ -5,7 +5,7 @@ RIPv2 also supports MD5 authentication.
 
 ## Configuration
 
-![RIPv2-config-simple](RIPv2-config-simple.png "RIPv2-config-simple.png")
+![RIPv2-config-simple](RIPv2-config-simple.png "RIPv2-config-simple")
 
 Fig- RP.1: RIPv2 simple topology
 
@@ -21,8 +21,6 @@ R1(config-router)# network 192.168.10.64
 R1(config-router)# network 10.10.10.4
 R1(config-router)# network 192.168.10.128
 ```
-<<<<<<< HEAD
-=======
 
 For R2
 
@@ -49,4 +47,9 @@ R3(config-router)# network 192.168.10.64
 R3(config-router)# network 10.10.10.4
 R3(config-router)# network 192.168.10.128
 ```
->>>>>>> routing-protocol
+
+We can verify routes among the routers on the network by seeing the routing table in the router using **_show ip route_** command in privilege mode.
+
+![RIPv2-routing-table](RIPv2-routing-table.png "RIPv2-routing-table")
+
+R lists all the RIP routes on the network.
