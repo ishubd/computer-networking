@@ -48,6 +48,8 @@ R3(config-router)# network 10.10.10.4
 R3(config-router)# network 192.168.10.128
 ```
 
+In auto-summary when ip given with the help of first octet default subnet mask is given. By disabling auto-summarization with the help of **_no auto-summary_** command subnet mask is used by seeing the routing table.
+
 We can verify routes among the routers on the network by seeing the routing table in the router using **_show ip route_** command in privilege mode.
 
 ![RIPv2-routing-table](RIPv2-routing-table.png "RIPv2-routing-table")
