@@ -63,7 +63,7 @@ IP says that lets go ahead and take that data packet and will add a header on it
 
 # 2. Data link layer
 
-The Data link layer is responsible for providing node-to-node data transfer between two directly connected nodes. After a packet enters in a network its DLL responsibilty to transmit it to the host using its MAC address. \
+The Data link layer is responsible for providing node-to-node data transfer between two directly connected nodes. After a packet enters in a network its DLL responsibilty to transmit it to the host using its MAC address.
 
 - PDU - Frame
 - Encapsulation of network layer data packets into frames
